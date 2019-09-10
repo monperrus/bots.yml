@@ -1,6 +1,6 @@
 # Specification of bots.yml for software bots
 
-Authors: Martin Monperrus et al. (add your name)  
+Authors: Martin Monperrus et al.
 Created on July 2019, [last modifications](https://github.com/monperrus/bots.yml/commits/master).
   
 Software development platforms such as Github are slowly becoming a playground for software bots. For instance, the [Dependabot](https://dependabot.com/) makes pull-requests to fix insecure dependencies and [Repairnator](https://github.com/Spirals-Team/repairnator/) makes pull-request to fix build failures. Some bots are commercial, other come from research and academia. 
@@ -61,6 +61,16 @@ The `contribution-kinds` directive specifies which kinds of contributions are we
 # new issue and pr forbidden
 contribution-kinds: [issue-comment, pr-comment]
 ```
+
+### The `source-folders` directives
+
+Sometimes, the source code directory or the repo owner wants only a subset of source folders to be analyzed. The `source-folders` directive targets this usage. If a `source-folders` directive is present, it means that contributions are only welcome for files in those folders.
+
+```yml
+source-folders: ['src/experimental']
+```
+
+Credits: Ivan Beschastnikh
 
 ## Known bots complying with `bots.yml`
 
