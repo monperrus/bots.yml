@@ -2,9 +2,9 @@
 
 Created on July 2019, [last modifications](https://github.com/monperrus/bots.yml/commits/master).
   
-Software development platforms such as Github are slowly becoming a playground for software bots. For instance, the [Dependabot](https://dependabot.com/) makes pull-requests to fix insecure dependencies and [Repairnator](https://github.com/Spirals-Team/repairnator/) makes pull-request to fix build failures. Some bots are commercial, other come from research and academia. 
+Software development platforms such as Github and Gitlab are slowly becoming a playground for software bots. For instance, the [Dependabot](https://dependabot.com/) makes pull-requests to fix insecure dependencies and [Repairnator](https://github.com/Spirals-Team/repairnator/) makes pull-request to fix build failures. Some bots are commercial, other come from research and academia. 
 
-**Problem:** The problem with software bots is that they can be disruptive, they can be perceived as unwelcomed by developers, if not Github spammers.
+**Problem:** The problem with software bots is that they can be disruptive, they can be perceived as unwelcomed by developers, if not spammers.
 
 **Solution:** Developers have a way to tell the authors and operators of software bots whether and to what extent the bot contribution are welcome.
 
