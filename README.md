@@ -1,6 +1,5 @@
 # Specification of bots.yml for software bots
 
-Authors: Martin Monperrus et al.
 Created on July 2019, [last modifications](https://github.com/monperrus/bots.yml/commits/master).
   
 Software development platforms such as Github are slowly becoming a playground for software bots. For instance, the [Dependabot](https://dependabot.com/) makes pull-requests to fix insecure dependencies and [Repairnator](https://github.com/Spirals-Team/repairnator/) makes pull-request to fix build failures. Some bots are commercial, other come from research and academia. 
@@ -76,7 +75,8 @@ Credits: Ivan Beschastnikh
 
 Make a pull-request to add a new bot:
 
-* TODO
+* [tool-recommender-bot](https://github.com/chbrown13/tool-recommender-bot)
+* Add another one
 
 ## Credits
 
