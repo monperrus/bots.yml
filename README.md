@@ -10,7 +10,7 @@ Software development platforms such as Github are slowly becoming a playground f
 
 ## The bots.yml configuration file
 
-Developers can add a `bots.yml` at  the root of their repository. This file specifies:
+Developers can add a `bots.yml` to their repository. The file can be either at the root of their repository or in a subfolder `.*/bots.yml` such as `.github/bots.yml`. This file specifies:
 * which bots are allowed or disallowed
 * which kinds of contributions are welcomed
 
@@ -60,6 +60,16 @@ The `contribution-kinds` directive specifies which kinds of contributions are we
 # new issue and pr forbidden
 contribution-kinds: [issue-comment, pr-comment]
 ```
+
+### The `source-folders` directives
+
+Sometimes, the source code directory or the repo owner wants only a subset of source folders to be analyzed. The `source-folders` directive targets this usage. If a `source-folders` directive is present, it means that contributions are only welcome for files in those folders.
+
+```yml
+source-folders: ['src/experimental']
+```
+
+Credits: Ivan Beschastnikh
 
 ## Known bots complying with `bots.yml`
 
