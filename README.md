@@ -11,7 +11,7 @@ Software development platforms such as Github are slowly becoming a playground f
 
 ## The bots.yml configuration file
 
-Developers can add a `bots.yml` at  the root of their repository. This file specifies:
+Developers can add a `bots.yml` to their repository. The file can be either at the root of their repository or in a subfolder `.*/bots.yml` such as `.github/bots.yml`. This file specifies:
 * which bots are allowed or disallowed
 * which kinds of contributions are welcomed
 
